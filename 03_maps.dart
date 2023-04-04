@@ -19,7 +19,7 @@ final pokemons = {
   150: "mew"
 };
 
-
+print("el pokemon 150 es: ${pokemons[150]}");
 print(pokemon);
 print("name: ${pokemon["name"]}");
 print("sprites: ${pokemon["sprites"]}");
