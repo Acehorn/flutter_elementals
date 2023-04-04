@@ -16,6 +16,7 @@ void main(){
   errorMessage = () => true;
   errorMessage = null;
 
+print(errorMessage);
 
   print("""
 $pokemon

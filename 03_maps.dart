@@ -33,7 +33,7 @@ print("back: ${pokemon["sprites"][2]}");
   errorMessage = null;
 
 
-
+print(errorMessage);
 
 
 
