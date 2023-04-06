@@ -30,7 +30,7 @@ class Mayans extends ArcheryCivilization with Archers, Infantry{}
 class Italians extends InfantryCivilization with Infantry, Cavalry, Archers {}
 class Magyars extends CavalryCivilization with Cavalry, Infantry, Archers {}
 class Japanese extends InfantryCivilization with Infantry,Cavalry,Archers{}
-
+class Mongols extends CavalryCivilization with Infantry,Cavalry,Archers{}
 
 
 void main() {
@@ -50,4 +50,9 @@ void main() {
   final magyarHuzar = Magyars();
 
   magyarHuzar.cavalry();
+
+  final mangudai = Mongols();
+
+  mangudai.archers();
+  mangudai.cavalry();
 }
